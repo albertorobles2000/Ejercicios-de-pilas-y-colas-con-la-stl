@@ -1,0 +1,53 @@
+Alberto Robles Hernandez
+
+Relación de pilas y colas(2019-2020)
+
+ejercicio01.cpp: 
+	Construye una función a la que se se le pase una pila P de tipo T y dos elementos x,y de tipo
+	T y que modifique la pila de forma que todas las veces que aparezca x se substituya por y
+	(quedando la pila en el mismo estado en el que estaba anteriormente). Para este ejercicio no
+	se podrán utilizar iteradores.
+
+ejercicio02.cpp: 
+	Implementa un función para determinar si una expresión contenida en un string tiene una
+	configuración de paréntesis correcta. Debe tener un orden lineal.
+
+ejercicio03.cpp: 
+	Implementa un TDA cola usando como representación dos pilas.
+
+ejercicio04.cpp: 
+	Implementa el TDA pila usando dos colas. ¿Qué orden de eficiencia tienen las operaciones push
+	y pop?
+
+ejercicio05.cpp: 
+	Se llama expresión en postfijo a una expresión matemática en la que cada operación aparece
+	con sus dos operandos seguidos por el operador. Por ejemplo: 2 3 + 5 * Escribe un programa
+	que evalue una expresión en postfijo.
+		ab^c*d/e+ donde a = 5, b = 3, c = d = 2, e = 9
+		abcde+*+ donde a = 12, b = 4, c = 7, d = 5, e = 2
+		ab+cd*+e* donde a = 2, b = 6, c = 3, d = 5, e = 9
+
+ejercicio06.cpp: 
+	Implementa una función insertar(P, pos, x) que inserte un elemento en una pila P en la posición
+	pos. La pila debe quedar como estaba antes de insertar el elemento (salvo por el nuevo elemento)
+
+ejercicio07.cpp: 
+	Implementa una función insertar(Q, pos, x) que inserte un elemento en una cola Q en la
+	posición pos. La cola debe quedar como estaba antes de insertar el elemento (salvo por el
+	nuevo elemento)
+
+ejercicio08.cpp: 
+	Usando una pila y una cola, implementa una función que compruebe si un string es un
+	palı́ndromo.
+
+ejercicio09.cpp: 
+	Implementa una cola con prioridad de un tipo struct con (apellidos, nombre, prioridad) de
+	forma que los datos salgan de acuerdo a ese tercer campo prioridad.
+
+ejercicio10.cpp: 
+	Implementa una cola con prioridad que contenga strings y de la que salgan primero las cadenas
+	de caracteres más largas y que en caso de igualdad salgan por orden alfabético.
+
+ejercicio11.cpp: 
+	Implementa una cola con prioridad que contenga strings y de la que salgan primero las cadenas
+	de caracteres que tengan más vocales y que en caso de igualdad salgan por orden alfabético.
